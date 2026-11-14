@@ -10,9 +10,9 @@ This project is supported by [XOProxy](https://www.xoproxy.com/?utm_source=TimeZ
 
 ## Install and use
 
-This public repository currently contains product and usage documentation only. Earlier source files, source tags, and installation packages containing unminified code have been withdrawn. Any future public downloads will contain verified distribution builds. GitHub's automatic “Source code” archives contain documentation only and cannot be installed as an extension.
+The public repository's main branch contains product and usage documentation and the historical license only. [GitHub Releases](https://github.com/nbw24v4kwj-dev/BrowserTimeZone/releases/latest) provides verified, minified installation packages. Earlier source files and packages containing unminified code have been withdrawn. GitHub's automatic “Source code” archives contain documentation only and cannot be installed as an extension.
 
-1. Use Chrome 138 or later. Once an official `browser-timezone.zip` distribution is available, extract it to a permanent folder.
+1. Use Chrome 138 or later. Download `browser-timezone.zip` from **Assets** in [GitHub Releases](https://github.com/nbw24v4kwj-dev/BrowserTimeZone/releases/latest) and extract it to a permanent folder.
 2. Open `chrome://extensions`, turn on **Developer mode**, and click **Load unpacked**. Select the extracted folder that contains `manifest.json`.
 3. Click the extension icon in the toolbar to open Browser Time Zone. Saving a time zone for the first time turns on the override. The extension applies it to sites allowed by Chrome's **Site access** settings.
 4. Turn off **Time zone override** to restore the system time zone in open web pages without reloading them. The saved selection stays available. **Clear time zone** also restores the system time zone and removes the saved selection.

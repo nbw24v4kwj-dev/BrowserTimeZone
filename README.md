@@ -10,10 +10,10 @@
 
 ## 安装与使用
 
-公开仓库目前仅保留产品与使用说明。旧源码、源码标签和包含未压缩代码的旧安装包已下架。后续如提供公开下载，只提供经过构建检查的成品安装包；GitHub 自动生成的 “Source code” 下载仅包含仓库说明，不能用作扩展安装包。
+公开仓库主分支仅保留产品与使用说明及历史许可证。[GitHub Releases](https://github.com/nbw24v4kwj-dev/BrowserTimeZone/releases/latest) 提供经过压缩和构建检查的成品安装包。旧源码和包含未压缩代码的旧安装包已下架。GitHub 自动生成的 “Source code” 下载仅包含仓库说明，不能用作扩展安装包。
 
-1. 使用 Chrome 138 或更新版本。获得正式发布的 `browser-timezone.zip` 成品安装包后，将其解压到固定文件夹。
-2. 在地址栏打开 `chrome://extensions`，开启「开发者模式」，点击「加载已解压的扩展程序」，选择包含 `manifest.json` 的 `browser-timezone` 文件夹。
+1. 使用 Chrome 138 或更新版本。从 [GitHub Releases](https://github.com/nbw24v4kwj-dev/BrowserTimeZone/releases/latest) 的 **Assets** 下载 `browser-timezone.zip` 成品安装包，将其解压到固定文件夹。
+2. 在地址栏打开 `chrome://extensions`，开启「开发者模式」，点击「加载已解压的扩展程序」，选择解压后包含 `manifest.json` 的文件夹。
 3. 从工具栏的扩展菜单打开「浏览器时区控制器」。首次选择并保存时区会开启时区覆盖。Chrome 的「网站访问权限」决定哪些网页可以应用时区。
 4. 关闭「时区覆盖」后，已打开的普通网页会恢复系统时区，已选时区仍会保留。「清除时区」会恢复系统时区并删除该选择。
 5. 重新开启或切换时区后，刷新已打开的网页即可应用新设置。
